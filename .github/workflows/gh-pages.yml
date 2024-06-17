@@ -28,15 +28,18 @@ jobs:
         run: yarn --frozen-lockfile
 
       - name: Build
+        working-directory: website
         run: |
           yarn build
 
       - name: Unit tests
+        working-directory: website
         run: |
           yarn test
 
       - name: Deploy
+        working-directory: website
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./build
