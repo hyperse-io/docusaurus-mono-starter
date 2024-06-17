@@ -11,6 +11,10 @@
     "Github Pages",
     "github pages CI CD"
   ],
+  "bugs": {
+    "url": "https://github.com/hyperse-io/gh-pages-starter/issues"
+  },
+  "homepage": "https://hyperse-io.github.io/gh-pages-starter",
   "repository": {
     "type": "git",
     "url": "git@github.com:hyperse-io/gh-pages-starter.git"
