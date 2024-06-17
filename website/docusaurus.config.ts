@@ -6,9 +6,9 @@ import type * as Plugin from '@docusaurus/types/src/plugin';
 const config: Config = {
   title: 'MUI tel input',
   tagline: 'A phone number input designed for the React library MUI built with',
-  url: 'https://github.com',
+  url: 'https://hyperse.github.io',
   baseUrl: '/gh-pages-starter',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/icon/favicon.ico',
   organizationName: 'Hyperse',
