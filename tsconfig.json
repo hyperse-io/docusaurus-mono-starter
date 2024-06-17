@@ -1,0 +1,19 @@
+{
+  "extends": "@hyperse/eslint-config-hyperse/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "rootDir": "./",
+    "noEmit": false,
+    "types": [
+      "vitest/globals"
+    ],
+    "paths": {}
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/.*/",
+    "dist",
+    "build",
+    "_release"
+  ]
+}
