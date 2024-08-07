@@ -18,6 +18,11 @@
   </a>
 </p>
 
+![Coverage: Statements](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/statements.svg)
+![Coverage: Branches](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/branches.svg)
+![Coverage: Functions](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/functions.svg)
+![Coverage: Lines](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/lines.svg)
+
 The starter template for running Github Pages with docusaurus for document
 
 ## references

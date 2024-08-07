@@ -11,10 +11,10 @@
     "Github Pages",
     "github pages CI CD"
   ],
+  "homepage": "https://hyperse-io.github.io/gh-pages-starter",
   "bugs": {
     "url": "https://github.com/hyperse-io/gh-pages-starter/issues"
   },
-  "homepage": "https://hyperse-io.github.io/gh-pages-starter",
   "repository": {
     "type": "git",
     "url": "git@github.com:hyperse-io/gh-pages-starter.git"
@@ -33,23 +33,24 @@
     "./dist/",
     "./index.js"
   ],
-  "scripts": {
-    "build": "rimraf dist && tsc -p ./tsconfig.build.json",
-    "lint": "eslint .",
-    "lint-fix": "yarn lint --fix",
-    "test": "run-s test-unit",
-    "test-unit": "vitest run",
-    "typecheck": "tsc --project ./tsconfig.json --noEmit",
-    "lint-staged-files": "lint-staged --allow-empty",
-    "changeset": "changeset",
-    "release": "yarn build && changeset publish",
-    "cz": "cz",
-    "prepare": "husky"
-  },
   "workspaces": [
     "website",
     "./"
   ],
+  "scripts": {
+    "build": "rimraf dist && tsc -p ./tsconfig.build.json",
+    "changeset": "changeset",
+    "cz": "cz",
+    "lint": "eslint .",
+    "lint-fix": "yarn lint --fix",
+    "lint-staged-files": "lint-staged --allow-empty",
+    "prepare": "husky",
+    "release": "yarn build && changeset publish",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "generate-badges": "node ./scripts/generate-badges.mjs",
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -57,20 +58,21 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.0",
-    "@changesets/cli": "2.27.5",
+    "@changesets/cli": "2.27.7",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@hyperse/eslint-config-hyperse": "^1.0.8",
-    "@types/node": "^20.14.2",
+    "@hyperse/eslint-config-hyperse": "^1.0.12",
+    "@types/node": "^22.1.0",
+    "@vitest/coverage-istanbul": "^2.0.5",
+    "cheerio": "^1.0.0-rc.12",
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "^9.5.0",
-    "husky": "9.0.11",
-    "lint-staged": "15.2.7",
-    "npm-run-all": "^4.1.5",
-    "rimraf": "5.0.7",
-    "typescript": "^5.4.5",
-    "vitest": "^1.6.0"
+    "eslint": "^9.8.0",
+    "husky": "9.1.4",
+    "lint-staged": "15.2.8",
+    "rimraf": "6.0.1",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   },
   "engines": {
     "node": ">=20"
@@ -78,5 +80,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "packageManager": "yarn@4.3.0"
+  "packageManager": "yarn@4.4.0"
 }

@@ -4,16 +4,10 @@
     "baseUrl": "./",
     "rootDir": "./",
     "noEmit": false,
-    "types": [
-      "vitest/globals"
-    ],
-    "paths": {}
+    "types": ["vitest/globals"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "exclude": [
-    "**/node_modules",
-    "**/.*/",
-    "dist",
-    "build",
-    "_release"
-  ]
+  "exclude": ["**/node_modules", "**/.*/", "dist", "build", "_release"]
 }

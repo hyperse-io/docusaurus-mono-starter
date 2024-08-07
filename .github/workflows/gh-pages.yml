@@ -32,13 +32,13 @@ jobs:
       - name: 📥 Install Dependencies
         run: yarn --frozen-lockfile
 
-      - name: Build
-        run: |
-          yarn build
-
       - name: Unit tests
         run: |
           yarn test
+
+      - name: Build
+        run: |
+          yarn build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
