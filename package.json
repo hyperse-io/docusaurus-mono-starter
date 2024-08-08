@@ -62,7 +62,7 @@
     "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
     "@hyperse/eslint-config-hyperse": "^1.1.0",
-    "@hyperse/vitest-coverage-reporter": "^1.0.6",
+    "@hyperse/vitest-coverage-reporter": "^1.0.7",
     "@types/node": "^22.1.0",
     "@vitest/coverage-istanbul": "^2.0.5",
     "cheerio": "^1.0.0-rc.12",
