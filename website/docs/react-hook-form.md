@@ -2,12 +2,12 @@
 
 Here an example if you want to plug `MuiColorInput` to your form using [React Hook Form](https://react-hook-form.com/).
 
-```tsx
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from '@mui/material/Button';
-import { MuiColorInput, matchIsValidColor } from 'mui-color-input';
 import { Controller, useForm } from 'react-hook-form';
+import { matchIsValidColor,MuiColorInput } from 'mui-color-input';
+import Button from '@mui/material/Button';
 
 const App = () => {
   const { control, handleSubmit } = useForm({

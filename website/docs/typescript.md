@@ -8,13 +8,13 @@ This package is written in **TypeScript**. So you don't need to create your own 
 
 **Nota bene**: Props are defined within the `MuiColorInputProps` interface.
 
-```tsx
+```jsx
 import React from 'react';
 import {
   MuiColorInput,
-  MuiColorInputValue,
   MuiColorInputColors,
   MuiColorInputFormat,
+  MuiColorInputValue,
 } from 'mui-color-input';
 
 const MyComponent = () => {

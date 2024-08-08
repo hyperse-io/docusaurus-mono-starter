@@ -23,7 +23,7 @@ Here are some examples of string input:
 
 ### Hex, 8-digit (RGBA) Hex
 
-```tsx
+```jsx
 <MuiColorInput value="#000" />
 <MuiColorInput value="000" />
 <MuiColorInput value="#369C" />
@@ -34,7 +34,7 @@ Here are some examples of string input:
 
 ### RGB, RGBA
 
-```tsx
+```jsx
 <MuiColorInput value="rgb (255, 0, 0)" />
 <MuiColorInput value="rgb 255 0 0" />
 <MuiColorInput value="rgba (255, 0, 0, .5)" />
@@ -43,7 +43,7 @@ Here are some examples of string input:
 
 ### HSL, HSLA
 
-```tsx
+```jsx
 <MuiColorInput value="hsl(0, 100%, 50%)" />
 <MuiColorInput value="hsla(0, 100%, 50%, .5)" />
 <MuiColorInput value="hsl 0 1.0 0.5" />
@@ -52,7 +52,7 @@ Here are some examples of string input:
 
 ### HSV, HSVA
 
-```tsx
+```jsx
 <MuiColorInput value="hsv(0, 100%, 50%)" />
 <MuiColorInput value="hsva(0, 100%, 50%, .5)" />
 <MuiColorInput value="hsv (0 100% 100%)" />
@@ -74,7 +74,7 @@ The callback gives you **2 parameters**:
 
 Example:
 
-```tsx
+```jsx
 const handleChange = (color, colors) => {
   /**
   color: "#ffffff"
@@ -101,7 +101,7 @@ The format to use for the color [value](#value). The first parameter of `onChang
 
 **Available formats**: `hex`, `hex8`, `hsl`, `hsv` and `rgb`.
 
-```tsx
+```jsx
 <MuiColorInput format="hex" />
 <MuiColorInput format="hex8" />
 <MuiColorInput format="rgb" />
@@ -117,7 +117,7 @@ The format to use for the color [value](#value). The first parameter of `onChang
 
 A fallback color [value](#value) in case the user updates the input with an invalid color value.
 
-```tsx
+```jsx
 <MuiColorInput fallbackValue="#ffffff" />
 <MuiColorInput fallbackValue="#ffffffff" />
 <MuiColorInput fallbackValue="hsv(0, 0%, 100%)" />
@@ -133,6 +133,6 @@ A fallback color [value](#value) in case the user updates the input with an inva
 
 Whether to show input controls for a color’s alpha channel.
 
-```tsx
+```jsx
 <MuiColorInput isAlphaHidden />
 ```
