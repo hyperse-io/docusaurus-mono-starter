@@ -39,5 +39,5 @@ jobs:
         run: yarn test:coverage
 
       - name: Hyperse Vitest Coverage Reporter
-        uses: hyperse-io/vitest-coverage-reporter@v1.0.5
+        uses: hyperse-io/vitest-coverage-reporter@v1.0.6
 

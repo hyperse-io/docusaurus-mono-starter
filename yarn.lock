@@ -3062,7 +3062,7 @@ __metadata:
     "@commitlint/cli": "npm:19.4.0"
     "@commitlint/config-conventional": "npm:19.2.2"
     "@hyperse/eslint-config-hyperse": "npm:^1.1.0"
-    "@hyperse/vitest-coverage-reporter": "npm:^1.0.5"
+    "@hyperse/vitest-coverage-reporter": "npm:^1.0.6"
     "@types/node": "npm:^22.1.0"
     "@vitest/coverage-istanbul": "npm:^2.0.5"
     cheerio: "npm:^1.0.0-rc.12"
@@ -3077,9 +3077,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hyperse/vitest-coverage-reporter@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@hyperse/vitest-coverage-reporter@npm:1.0.5"
+"@hyperse/vitest-coverage-reporter@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "@hyperse/vitest-coverage-reporter@npm:1.0.6"
   dependencies:
     "@actions/core": "npm:1.10.1"
     "@actions/github": "npm:6.0.0"
@@ -3087,7 +3087,7 @@ __metadata:
     minimist: "npm:^1.2.8"
   bin:
     generate-badges: bin/generate-badges.mjs
-  checksum: 10/7b963adba9a344c475be04243a4055ca26be7d24790d91f4c76b2fa095dd3286c1d66d381075fb28273fb561b9a2d84d30f0c75e4b7562847a35f547ac4733be
+  checksum: 10/ad126019ca72a5048d5eb01c8dc8b4d56396f8743fb4f174dee908b5054a1fddb66385bb75c732dd1d8a9efba75180ee6b3a644387cddf77db00fb90d3d6c383
   languageName: node
   linkType: hard
 
