@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  test-coverage:
+  coverage-badge:
     strategy:
       matrix:
         os:
@@ -17,13 +17,6 @@ jobs:
         pnpm:
           - 7
     runs-on: ${{ matrix.os }}
-
-    permissions:
-      # Required to checkout the code
-      contents: read
-      # Required to put a comment into the pull-request
-      pull-requests: write
-
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
@@ -35,10 +28,17 @@ jobs:
       - name: 📥 Install Dependencies
         run: yarn --frozen-lockfile
 
-      - name: 'Run test coverage'
-        run: npx vitest --coverage.enabled true
+      - name: run coverage
+        run: yarn test:coverage
 
-      - name: 'Report Coverage'
-        # Set if: always() to also generate the report if tests are failing
-        # Only works if you set `reportOnFailure: true` in your vite config as specified above
-        uses:  davelosert/vitest-coverage-report-action@v2
+      - name: generate badges
+        run: yarn generate-badges
+
+      - name: push coverage artifacts to another branch
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./coverage
+          publish_branch: coverage
+          allow_empty_commit: true
