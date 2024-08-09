@@ -11,6 +11,7 @@ jobs:
     if: ${{ github.repository == 'hyperse-io/gh-pages-starter' && contains('refs/heads/main',github.ref)}}
     name: Release and changelog
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -26,6 +27,12 @@ jobs:
 
       - name: 📥 Install Dependencies
         run: yarn --frozen-lockfile
+
+      - name: 'Run test coverage'
+        run: yarn test:coverage
+
+      - name: Hyperse Vitest Coverage Reporter
+        uses: hyperse-io/vitest-coverage-reporter@v1.0.9
 
       # @link https://github.com/changesets/action
       - name: Create Release Pull Request or Publish to npm

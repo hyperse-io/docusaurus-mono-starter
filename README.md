@@ -17,7 +17,6 @@
     <img alt="Licence" src="https://img.shields.io/github/license/hyperse-io/gh-pages-starter?style=flat-quare&labelColor=000000" />
   </a>
 </p>
-
 ![Coverage: Statements](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/statements.svg)
 ![Coverage: Branches](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/branches.svg)
 ![Coverage: Functions](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/functions.svg)
