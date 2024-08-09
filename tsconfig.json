@@ -9,5 +9,13 @@
       "@/*": ["src/*"]
     }
   },
-  "exclude": ["**/node_modules", "**/.*/", "dist", "build", "_release"]
+  "exclude": [
+    "**/node_modules",
+    "**/.*/",
+    "dist",
+    "build",
+    "_release",
+    "**/website/**/*.ts",
+    "**/website/**/*.tsx"
+  ]
 }

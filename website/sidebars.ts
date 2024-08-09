@@ -20,23 +20,8 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'link',
-          label: 'MUI OTP input',
-          href: 'https://hyperse.github.io/gh-pages-starter/',
-        },
-        {
-          type: 'link',
-          label: 'MUI tel input',
-          href: 'https://hyperse.github.io/gh-pages-starter/',
-        },
-        {
-          type: 'link',
-          label: 'MUI chips input',
-          href: 'https://hyperse.github.io/gh-pages-starter/',
-        },
-        {
-          type: 'link',
-          label: 'MUI file input',
-          href: 'https://hyperse.github.io/gh-pages-starter/',
+          label: 'Hyperse track',
+          href: 'https://hyperse.github.io/track/',
         },
       ],
     },
