@@ -3063,7 +3063,7 @@ __metadata:
     "@commitlint/cli": "npm:19.4.0"
     "@commitlint/config-conventional": "npm:19.2.2"
     "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
-    "@hyperse/vitest-coverage-reporter": "npm:^1.0.12"
+    "@hyperse/vitest-coverage-reporter": "npm:^1.0.13"
     "@types/node": "npm:^22.2.0"
     "@vitest/coverage-istanbul": "npm:^2.0.5"
     cheerio: "npm:^1.0.0"
@@ -3078,9 +3078,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hyperse/vitest-coverage-reporter@npm:^1.0.12":
-  version: 1.0.12
-  resolution: "@hyperse/vitest-coverage-reporter@npm:1.0.12"
+"@hyperse/vitest-coverage-reporter@npm:^1.0.13":
+  version: 1.0.13
+  resolution: "@hyperse/vitest-coverage-reporter@npm:1.0.13"
   dependencies:
     "@actions/core": "npm:1.10.1"
     "@actions/github": "npm:6.0.0"
@@ -3093,7 +3093,7 @@ __metadata:
     unified: "npm:^11.0.5"
   bin:
     generate-coverage-report: bin/generate-coverage-report.mjs
-  checksum: 10/515b95bbd2ae4e8c9f4ec45a56e34c756acdcea9467c8830666f05f99687984c54831b0e745daa0b30ed69ff277d3dd28c9be3917aa8c15708739a5d6f670417
+  checksum: 10/d3e506e97d8988df27ea8f16005970b407a6034fe47e7b320618951eb60df2c1b0b2acfc29370edd509d988a43df010ad2e2f52cda042886e0256b555aea9fca
   languageName: node
   linkType: hard
 
