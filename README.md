@@ -32,4 +32,4 @@ The starter template for running Github Pages with docusaurus for document
 
 ## references
 
-* https://github.com/peaceiris/actions-gh-pages
+- https://github.com/peaceiris/actions-gh-pages
