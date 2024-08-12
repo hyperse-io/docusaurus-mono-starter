@@ -3063,7 +3063,7 @@ __metadata:
     "@commitlint/cli": "npm:19.4.0"
     "@commitlint/config-conventional": "npm:19.2.2"
     "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
-    "@hyperse/vitest-coverage-reporter": "npm:^1.0.10"
+    "@hyperse/vitest-coverage-reporter": "npm:^1.0.12"
     "@types/node": "npm:^22.2.0"
     "@vitest/coverage-istanbul": "npm:^2.0.5"
     cheerio: "npm:^1.0.0"
@@ -3078,9 +3078,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hyperse/vitest-coverage-reporter@npm:^1.0.10":
-  version: 1.0.10
-  resolution: "@hyperse/vitest-coverage-reporter@npm:1.0.10"
+"@hyperse/vitest-coverage-reporter@npm:^1.0.12":
+  version: 1.0.12
+  resolution: "@hyperse/vitest-coverage-reporter@npm:1.0.12"
   dependencies:
     "@actions/core": "npm:1.10.1"
     "@actions/github": "npm:6.0.0"
@@ -3093,7 +3093,7 @@ __metadata:
     unified: "npm:^11.0.5"
   bin:
     generate-coverage-report: bin/generate-coverage-report.mjs
-  checksum: 10/3e7bc395b5533482c694ce81660a66d4cd114b0e850797b29e1b13e4755e17faaf627c47f793b91dc2a5910a85d872af3fafe06de38a94ecaf01405edf510758
+  checksum: 10/515b95bbd2ae4e8c9f4ec45a56e34c756acdcea9467c8830666f05f99687984c54831b0e745daa0b30ed69ff277d3dd28c9be3917aa8c15708739a5d6f670417
   languageName: node
   linkType: hard
 
@@ -4221,12 +4221,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 22.1.0
-  resolution: "@types/node@npm:22.1.0"
+"@types/node@npm:*, @types/node@npm:^22.2.0":
+  version: 22.2.0
+  resolution: "@types/node@npm:22.2.0"
   dependencies:
     undici-types: "npm:~6.13.0"
-  checksum: 10/c2ac1340509646b6c673b27fae2a46e501a97e540e7221be4dd2e0be7a0f61efefb5bf3be8bedf2dbce245fa49cfc49bba77bce73fa3c4296d0d19521ced3222
+  checksum: 10/2957c5c81f1a07a1210f28382adae65c11070c301e395fa819448516f1a2a710054b29e0ec7d8e28624afbcd90dae810403a497109545dea835b554fc76edf6c
   languageName: node
   linkType: hard
 
@@ -4250,15 +4250,6 @@ __metadata:
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 10/035bc347e3de04888d537801e23eb4b4f99522975ca002dbfef978edd853710031b7cd43bf022670d6aba4ed5d4ac75ea1b5ff77ff8f80998bffd943b7bcef48
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^22.2.0":
-  version: 22.2.0
-  resolution: "@types/node@npm:22.2.0"
-  dependencies:
-    undici-types: "npm:~6.13.0"
-  checksum: 10/2957c5c81f1a07a1210f28382adae65c11070c301e395fa819448516f1a2a710054b29e0ec7d8e28624afbcd90dae810403a497109545dea835b554fc76edf6c
   languageName: node
   linkType: hard
 
@@ -16472,22 +16463,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unified@npm:^11.0.0, unified@npm:^11.0.3, unified@npm:^11.0.4":
-  version: 11.0.4
-  resolution: "unified@npm:11.0.4"
-  dependencies:
-    "@types/unist": "npm:^3.0.0"
-    bail: "npm:^2.0.0"
-    devlop: "npm:^1.0.0"
-    extend: "npm:^3.0.0"
-    is-plain-obj: "npm:^4.0.0"
-    trough: "npm:^2.0.0"
-    vfile: "npm:^6.0.0"
-  checksum: 10/425f0618d6f5e5d2ae64ec206cb6fd11f4b86fec7a785cfe2fc3a334191a91bf837eecb32858c70bcc2c08e76ce9d6a38457319f70f77399c8f496fb8e486817
-  languageName: node
-  linkType: hard
-
-"unified@npm:^11.0.5":
+"unified@npm:^11.0.0, unified@npm:^11.0.3, unified@npm:^11.0.4, unified@npm:^11.0.5":
   version: 11.0.5
   resolution: "unified@npm:11.0.5"
   dependencies:

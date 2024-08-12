@@ -22,8 +22,14 @@
 ![Coverage: Functions](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/functions.svg)
 ![Coverage: Lines](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/lines.svg)
 
+<!-- hyperse-vitest-coverage-reporter-marker-readme -->
+
+## Coverage Report
+
+<table> <thead> <tr> <th align="center">Status</th> <th align="left">Category</th> <th align="right">Percentage</th> <th align="right">Covered / Total</th> </tr> </thead> <tbody> <tr> <td align="center">🔵</td> <td align="left">Lines</td> <td align="right">75%</td> <td align="right">6 / 8</td> </tr> <tr> <td align="center">🔵</td> <td align="left">Statements</td> <td align="right">75%</td> <td align="right">6 / 8</td> </tr> <tr> <td align="center">🔵</td> <td align="left">Functions</td> <td align="right">75%</td> <td align="right">3 / 4</td> </tr> <tr> <td align="center">🔵</td> <td align="left">Branches</td> <td align="right">75%</td> <td align="right">3 / 4</td> </tr> </tbody> </table>
+
 The starter template for running Github Pages with docusaurus for document
 
 ## references
 
-- https://github.com/peaceiris/actions-gh-pages
+* https://github.com/peaceiris/actions-gh-pages
