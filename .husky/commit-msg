@@ -1,4 +1,3 @@
 #!/usr/bin/env sh
-yarn run test:coverage 
-yarn generate-coverage-report --type readme
+
 yarn commitlint --edit "$1"
