@@ -32,7 +32,7 @@ jobs:
         run: yarn test:coverage
 
       - name: generate badges
-        run: yarn generate-coverage-report:badges
+        run: yarn generate-coverage-badges
 
       - name: push coverage artifacts to another branch
         uses: peaceiris/actions-gh-pages@v4

@@ -27,7 +27,7 @@ jobs:
         run: rm -rf node_modules
 
       - name: "PR Test Reports"
-        uses: hyperse-io/vitest-coverage-reporter@v1.0.12
+        uses: hyperse-io/vitest-coverage-reporter@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           include-all-projects: "false"
