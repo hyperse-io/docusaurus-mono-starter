@@ -17,10 +17,13 @@
     <img alt="Licence" src="https://img.shields.io/github/license/hyperse-io/gh-pages-starter?style=flat-quare&labelColor=000000" />
   </a>
 </p>
-![Coverage: Statements](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/statements.svg)
-![Coverage: Branches](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/branches.svg)
-![Coverage: Functions](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/functions.svg)
-![Coverage: Lines](https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/lines.svg)
+<p align="left">
+    <img alt="Coverage: Statements" src="https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/statements.svg" />
+    <img alt="Coverage: Branches version" src="https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/branches.svg" />
+    <img alt="Coverage: Functions" src="https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/functions.svg" />
+    <img alt="Coverage: Lines" src="https://raw.githubusercontent.com/hyperse-io/gh-pages-starter/coverage/badges/lines.svg">
+  </a>
+</p>
 
 <!-- hyperse-vitest-coverage-reporter-marker-readme -->
 
