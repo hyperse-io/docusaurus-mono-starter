@@ -3009,6 +3009,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/react@npm:^2.1.5":
+  version: 2.1.5
+  resolution: "@heroicons/react@npm:2.1.5"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 10/dd972f06760e2eec36e32db2edd938e7cc4fd012f6b25e0a31adc3c7fd7122517aa8a55f7b262646c6ef988c42b16fc635b252a4b8aa1bcf8597c97567eaa3d4
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/module-importer@npm:^1.0.1":
   version: 1.0.1
   resolution: "@humanwhocodes/module-importer@npm:1.0.1"
@@ -3022,6 +3031,30 @@ __metadata:
   checksum: 10/e574bab58680867414e225c9002e9a97eb396f85871c180fbb1a9bcdf9ded4b4de0b327f7d0c43b775873362b7c92956d4b322e8bc4b90be56077524341f04b2
   languageName: node
   linkType: hard
+
+"@hyperse/docusaurus-mono-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@hyperse/docusaurus-mono-starter@workspace:."
+  dependencies:
+    "@changesets/changelog-github": "npm:0.5.0"
+    "@changesets/cli": "npm:2.27.7"
+    "@commitlint/cli": "npm:19.4.0"
+    "@commitlint/config-conventional": "npm:19.2.2"
+    "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
+    "@hyperse/vitest-coverage-reporter": "npm:^1.0.15"
+    "@types/node": "npm:^22.2.0"
+    "@vitest/coverage-istanbul": "npm:^2.0.5"
+    cheerio: "npm:^1.0.0"
+    commitizen: "npm:4.3.0"
+    cz-conventional-changelog: "npm:3.3.0"
+    eslint: "npm:^9.9.0"
+    husky: "npm:9.1.4"
+    lint-staged: "npm:15.2.8"
+    rimraf: "npm:6.0.1"
+    typescript: "npm:^5.5.4"
+    vitest: "npm:^2.0.5"
+  languageName: unknown
+  linkType: soft
 
 "@hyperse/eslint-config-hyperse@npm:^1.1.3":
   version: 1.1.3
@@ -3053,30 +3086,6 @@ __metadata:
   checksum: 10/83bda11a5ce1ad86abfbf2974c0f3f60d582899a3fc88659c8d41e80eeaec7ef60117d46ec38d9269eb35bbd0a680bc456fad3036b3b5025b5c3bcc4c7846e1c
   languageName: node
   linkType: hard
-
-"@hyperse/gh-pages-starter@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@hyperse/gh-pages-starter@workspace:."
-  dependencies:
-    "@changesets/changelog-github": "npm:0.5.0"
-    "@changesets/cli": "npm:2.27.7"
-    "@commitlint/cli": "npm:19.4.0"
-    "@commitlint/config-conventional": "npm:19.2.2"
-    "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
-    "@hyperse/vitest-coverage-reporter": "npm:^1.0.15"
-    "@types/node": "npm:^22.2.0"
-    "@vitest/coverage-istanbul": "npm:^2.0.5"
-    cheerio: "npm:^1.0.0"
-    commitizen: "npm:4.3.0"
-    cz-conventional-changelog: "npm:3.3.0"
-    eslint: "npm:^9.9.0"
-    husky: "npm:9.1.4"
-    lint-staged: "npm:15.2.8"
-    rimraf: "npm:6.0.1"
-    typescript: "npm:^5.5.4"
-    vitest: "npm:^2.0.5"
-  languageName: unknown
-  linkType: soft
 
 "@hyperse/vitest-coverage-reporter@npm:^1.0.15":
   version: 1.0.15
@@ -16680,6 +16689,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"usehooks-ts@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "usehooks-ts@npm:3.1.0"
+  dependencies:
+    lodash.debounce: "npm:^4.0.8"
+  peerDependencies:
+    react: ^16.8.0  || ^17 || ^18
+  checksum: 10/6aef8affd3c053a3040b7421816dab85eb21601c5203496a705bafc32eb973fb519a2b0ddda527962e361d248f3a1c49df130620efe871c8f89e897451ed1cc7
+  languageName: node
+  linkType: hard
+
 "util-deprecate@npm:^1.0.1, util-deprecate@npm:^1.0.2, util-deprecate@npm:~1.0.1":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
@@ -17148,6 +17168,7 @@ __metadata:
     "@docusaurus/plugin-content-docs": "npm:^3.5.1"
     "@docusaurus/plugin-google-gtag": "npm:^3.5.1"
     "@docusaurus/preset-classic": "npm:^3.5.1"
+    "@heroicons/react": "npm:^2.1.5"
     "@hyperse/eslint-config-hyperse": "npm:^1.1.3"
     "@mdx-js/react": "npm:^3.0.1"
     "@tsconfig/docusaurus": "npm:^2.0.3"
@@ -17166,6 +17187,7 @@ __metadata:
     react-dom: "npm:^18.3.1"
     tailwindcss: "npm:^3.4.9"
     typescript: "npm:5.5.4"
+    usehooks-ts: "npm:^3.1.0"
     vitest: "npm:^2.0.5"
   languageName: unknown
   linkType: soft
