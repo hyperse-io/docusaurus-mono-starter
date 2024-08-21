@@ -1,6 +1,6 @@
-<h1 align="center">docusaurus-mono-starter</h1>
+<h1 align="left">docusaurus-mono-starter</h1>
 
-<p align="center">
+<p align="left">
   <a aria-label="Build" href="https://github.com/hyperse-io/docusaurus-mono-starter/actions?query=workflow%3ACI">
     <img alt="build" src="https://img.shields.io/github/actions/workflow/status/hyperse-io/docusaurus-mono-starter/ci-integrity.yml?branch=main&label=ci&logo=github&style=flat-quare&labelColor=000000" />
   </a>
@@ -17,7 +17,7 @@
     <img alt="Licence" src="https://img.shields.io/github/license/hyperse-io/docusaurus-mono-starter?style=flat-quare&labelColor=000000" />
   </a>
 </p>
-<p align="center">
+<p align="left">
     <img alt="Coverage: Statements" src="https://raw.githubusercontent.com/hyperse-io/docusaurus-mono-starter/coverage/badges/statements.svg" />
     <img alt="Coverage: Branches version" src="https://raw.githubusercontent.com/hyperse-io/docusaurus-mono-starter/coverage/badges/branches.svg" />
     <img alt="Coverage: Functions" src="https://raw.githubusercontent.com/hyperse-io/docusaurus-mono-starter/coverage/badges/functions.svg" />
@@ -58,4 +58,4 @@ Contributions are welcome! If you encounter any issues or have ideas for improve
 
 ## License
 
-Code released under [Track LICENSE](https://github.com/hyperse-io/docusaurus-mono-starter/blob/main/LICENSE)
+Code released under [LICENSE](https://github.com/hyperse-io/docusaurus-mono-starter/blob/main/LICENSE)
