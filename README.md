@@ -35,8 +35,8 @@
 
 Before you begin, make sure you have the following installed:
 
-- Node.js (recommended version 16.x or higher)
-- npm (comes with Node.js)
+* Node.js (recommended version 16.x or higher)
+* npm (comes with Node.js)
 
 ## Installation
 
@@ -50,8 +50,8 @@ yarn add @hyperse/track
 
 ## Development
 
-> [!IMPORTANT]
-> The following instructions are for those who want to develop the hyperse related framework or plugins (e.g. if you intend to make a pull request). For instructions on how to build a project _using_ Hyperse, please see the [Getting Started guide](https://hyperse-io.github.io/docusaurus-mono-starter/docs/community/contributing).
+> \[!IMPORTANT]
+> The following instructions are for those who want to develop the hyperse related framework or plugins (e.g. if you intend to make a pull request). For instructions on how to build a project *using* Hyperse, please see the [Getting Started guide](https://hyperse-io.github.io/docusaurus-mono-starter/docs/community/contributing).
 
 ### 1. Clone project to the local directory
 
@@ -73,9 +73,9 @@ npm install
 
 The root directory has a `package.json` which contains build-related dependencies for tasks including:
 
-- Building & deploying the docs
-- Project for online presentation
-- Linting, formatting & testing tasks to run on git commit & push
+* Building & deploying the docs
+* Project for online presentation
+* Linting, formatting & testing tasks to run on git commit & push
 
 ### 3. Testing
 

@@ -40,7 +40,15 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
+    mermaid: {
+      // https://mermaid.js.org/config/theming.html
+      theme: { light: 'forest', dark: 'neutral' },
+    },
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
