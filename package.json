@@ -1,6 +1,6 @@
 {
-  "name": "@hyperse/gh-pages-starter",
-  "version": "1.0.2",
+  "name": "@hyperse/docusaurus-mono-starter",
+  "version": "1.0.1",
   "description": "The starter template for running Github Pages with docusaurus for document",
   "keywords": [
     "hyperse",
@@ -11,13 +11,13 @@
     "Github Pages",
     "github pages CI CD"
   ],
-  "homepage": "https://hyperse-io.github.io/gh-pages-starter",
+  "homepage": "https://hyperse-io.github.io/docusaurus-mono-starter",
   "bugs": {
-    "url": "https://github.com/hyperse-io/gh-pages-starter/issues"
+    "url": "https://github.com/hyperse-io/docusaurus-mono-starter/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:hyperse-io/gh-pages-starter.git"
+    "url": "git@github.com:hyperse-io/docusaurus-mono-starter.git"
   },
   "type": "module",
   "exports": {

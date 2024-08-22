@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "hyperse-io/gh-pages-starter"
+      "repo": "hyperse-io/docusaurus-mono-starter"
     }
   ],
   "commit": false,
