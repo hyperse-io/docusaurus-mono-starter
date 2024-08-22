@@ -32,19 +32,19 @@ function HomepageHeader() {
         <div className={clsx(styles.buttons, 'my-4 gap-4')}>
           <Link
             className="button button--primary md:py-3 md:px-4 rounded-2xl dark:text-white"
-            to="/docs/intro/introducing"
+            to="/docs/getting-started"
           >
             Watch
           </Link>
           <Link
             className="button button--danger md:py-3 md:px-4 rounded-2xl dark:text-white"
-            to="/docs/intro/introducing"
+            to="/docs/getting-started"
           >
             Get Started
           </Link>
           <Link
             className="button button--warning md:py-3 md:px-4 rounded-2xl"
-            to="/docs/intro/introducing"
+            to="/docs/getting-started"
           >
             Donate
           </Link>
