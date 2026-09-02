@@ -8,6 +8,7 @@ on:
 
 jobs:
   coverage-badge:
+    if: ${{ !startsWith(github.head_ref, 'changeset-release/') }}
     strategy:
       matrix:
         os:
